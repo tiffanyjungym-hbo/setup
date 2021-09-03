@@ -1,0 +1,76 @@
+{
+    "shortcuts": [
+        {
+            "command": "terminal:open",
+            "keys": [
+                "Alt T"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "notebook:hide-cell-outputs",
+            "keys": [
+              "Shift C"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:show-cell-outputs",
+            "keys": [
+              "Shift E"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:hide-cell-code",
+            "keys": [
+                "C",
+                "C"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:show-cell-code",
+            "keys": [
+              "E",
+                "E"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:show-all-cell-code",
+            "keys": [
+              "Ctrl Shift E"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:hide-all-cell-code",
+            "keys": [
+              "Ctrl Shift C"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:enable-output-scrolling",
+            "keys": [
+              "Shift S"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:disable-output-scrolling",
+            "keys": [
+              "Shift F"
+            ],
+            "selector": ".jp-Notebook:focus"
+          },
+        {
+            "command": "notebook:run-in-console",
+            "keys": [
+                "Ctrl Shift Enter"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+            },  
+            ]
+}
